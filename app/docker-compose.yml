@@ -1,12 +1,12 @@
 version: '2'
 services:
   php:
-    image: app-php
+    image: saurabhbahl19/app-php
     volumes:
       - ./:/app
     working_dir: /app
   web:
-    image: app-nginx
+    image: saurabhbahl19/app-nginx
     volumes:
       - ./:/app
     depends_on:
