@@ -20,11 +20,7 @@ $cities = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <title>Saurabh you Rock!</title>
 </head>
-<<<<<<< HEAD:index.php
 <body style="background-color:#FFFF00;">
-=======
-<body style="background-color:#00FF00;">
->>>>>>> da34d05db0c95cd586d5b15f0f40af00a5ccc239:app/index.php
     <h2>Most Populous Cities In The World</h2>
     <table>
     <thead>
@@ -48,3 +44,4 @@ $cities = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </table>
 </body>
 </html>
+
